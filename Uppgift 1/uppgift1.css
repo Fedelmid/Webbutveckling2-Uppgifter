@@ -1,4 +1,38 @@
-/* Detta ör CSS-filen som du kan börja skriva sidans CSS i.
- * CSS-filen är redan länkad i HTML-filen 'uppgift1.html'
- */
- 
+
+ body {
+   margin-left: 2%;
+   margin-right: 2%;
+ }
+
+ .rubrik {
+   font-family: sans-serif;
+ }
+
+ #image1 {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ footer {
+   border: 1px solid red;
+   text-align: center;
+   padding: 15px;
+   clear: both;
+ }
+
+ #image2 {
+   float: right;
+   margin-left: 10px;
+   margin-bottom: 1em;
+ }
+
+ #image3 {
+   float: left;
+   margin-right: 5px;
+   margin-bottom: 1em;
+ }
+
+ #kursivp {
+   font-style: italic;
+ }
